@@ -1,26 +1,30 @@
-# Flood Risk Assessment - Chiang Mai, Thailand
+# Limarí Valley Drought Analysis — NDVI Temporal Study (2016–2024)
 
-Spatial analysis of flood prone zones using DEM analysis and open geospatial data.
+NDVI temporal analysis to monitor drought impact and vegetation recovery in the Limarí Valley, Chile, using Google Earth Engine and Sentinel-2 imagery.
 
 ## About
-This project identifies flood risk zones in Chiang Mai Province, Thailand, 
-using elevation data, river networks, and spatial analysis in Python.
+
+This project analyzes vegetation changes in the Limarí Province, Coquimbo Region, Chile, using NDVI derived from Sentinel-2 satellite imagery. The study covers the period 2016–2024 to document the impact of the Chilean megadrought and the partial recovery observed in recent years.
 
 ## Key Results
-- 10.3% of Chiang Mai province is flood prone (below 350m elevation)
-- 1,109 flood zone polygons derived from SRTM DEM
-- 295 rivers and 2,743 streams mapped within the province
-- Ping River corridor identified as highest risk zone
+
+- Progressive vegetation decline observed from 2016 to 2022, consistent with the Chilean megadrought
+- 2022 represents the year of lowest NDVI values across the Limarí Valley
+- Partial vegetation recovery detected in 2024, likely associated with above-average precipitation in 2023–2024
+- Agricultural areas in the valley floor show the most severe NDVI reductions
 
 ## Data Sources
-- **Boundaries:** GADM Global Administrative Database
-- **Waterways:** HDX/OpenStreetMap (Humanitarian Data Exchange)
-- **Elevation:** NASA SRTM GL1 (30m resolution) via OpenTopography
+
+- **Satellite imagery:** Sentinel-2 SR Harmonized (ESA) via Google Earth Engine
+- **Administrative boundaries:** FAO GAUL Level 2
+- **River network:** WWF HydroSHEDS Free Flowing Rivers
 
 ## Tools
-- Python | GeoPandas | Rasterio | Folium | Matplotlib
+
+- Python | Google Earth Engine API | geemap | Matplotlib
 - Jupyter Notebook
 
 ## Author
+
 Constanza Morales - Geological Civil Engineer  
 [GitHub](https://github.com/conimoralesg)
